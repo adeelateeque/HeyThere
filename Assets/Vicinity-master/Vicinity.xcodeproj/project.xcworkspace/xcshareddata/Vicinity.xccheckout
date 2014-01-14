@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E92268B4-3DB3-4904-A73D-B1C3BC56F761</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Vicinity</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>52621A7F-0F20-43F6-AC76-6B32B3801730</key>
+		<string>https://github.com/adeelateeque/HeyThere.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Assets/Vicinity-master/Vicinity.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>52621A7F-0F20-43F6-AC76-6B32B3801730</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/adeelateeque/HeyThere.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>52621A7F-0F20-43F6-AC76-6B32B3801730</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>52621A7F-0F20-43F6-AC76-6B32B3801730</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HeyThere</string>
+		</dict>
+	</array>
+</dict>
+</plist>

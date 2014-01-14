@@ -1,3 +1,5 @@
+//UUID A3F19AAD-7CB4-49BA-87DF-A1D0874C0A78 can also use multiple UUIDs in the future to support more users and also distinguish groups
+
 //Facebook login
 
 //On launch, enter details i.e. number, name and etc (Facebook, Twitter and etc).
