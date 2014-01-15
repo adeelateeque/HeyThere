@@ -5,6 +5,7 @@
 
 #import "ReachabilityService.h"
 #import "GCDSingleton.h"
+#import "Reachability.h"
 
 #define kDebugReachability YES
 
