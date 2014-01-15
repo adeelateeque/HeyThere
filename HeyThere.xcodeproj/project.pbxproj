@@ -34,6 +34,7 @@
 		3C2F4D95DDC93B32A9761B49 /* CBUUID+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F47187CED48068ADC2A15 /* CBUUID+Ext.m */; };
 		3C2F4E4971769E98C715416A /* GCDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F463A2B828C3813602D5E /* GCDUtilities.m */; };
 		3C2F4E9D2C9B4B532B0A7A82 /* HTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F43918485CD63D1E29AE7 /* HTUser.m */; };
+		3C2F4EB79CAD90DCEC3A6295 /* HTCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F4E0852A7F8F6EDD52B62 /* HTCard.m */; };
 		3C2F4F163471A164C3E2F330 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F44D2363727099E864509 /* UIView+Ext.m */; };
 		3C2F4FB8778868A6B02EE697 /* NSDictionary+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F4C06938C6345DD46E58A /* NSDictionary+Ext.m */; };
 		C20D5A0F188441D100C685D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20D5A0E188441D100C685D3 /* Foundation.framework */; };
@@ -53,6 +54,14 @@
 		C20D5A3C188441D200C685D3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20D5A14188441D100C685D3 /* CoreData.framework */; };
 		C20D5A44188441D200C685D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C20D5A42188441D200C685D3 /* InfoPlist.strings */; };
 		C20D5A46188441D200C685D3 /* HeyThereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C20D5A45188441D200C685D3 /* HeyThereTests.m */; };
+		C2976B2D1886650700F88DA9 /* HTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2976B2C1886650700F88DA9 /* HTLoginViewController.m */; };
+		C2976B301886658600F88DA9 /* HTCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2976B2F1886658600F88DA9 /* HTCardView.xib */; };
+		C2976B371886663E00F88DA9 /* HTCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2976B361886663E00F88DA9 /* HTCardView.m */; };
+		C2976B3C1886669A00F88DA9 /* HTSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2976B3A1886669A00F88DA9 /* HTSettingViewController.m */; };
+		C2976B3D1886669A00F88DA9 /* HTSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2976B3B1886669A00F88DA9 /* HTSettingViewController.xib */; };
+		C2976B3F188666BF00F88DA9 /* HTLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2976B3E188666BF00F88DA9 /* HTLoginViewController.xib */; };
+		C2976B41188667D700F88DA9 /* HTLoginViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2976B40188667D700F88DA9 /* HTLoginViewController~iphone.xib */; };
+		C2976B43188667FF00F88DA9 /* HTSettingViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2976B42188667FF00F88DA9 /* HTSettingViewController~iphone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +115,7 @@
 		3C2F493F02697EF838E21B51 /* NSMutableDictionary+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Ext.m"; sourceTree = "<group>"; };
 		3C2F4955100375EF40D6EE98 /* NSFileManager+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Ext.h"; sourceTree = "<group>"; };
 		3C2F495F248CC6F499D42737 /* HTBeaconService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTBeaconService.m; sourceTree = "<group>"; };
+		3C2F496CED69FE4119758BBC /* HTCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCard.h; sourceTree = "<group>"; };
 		3C2F4983CB4E5C084BEE4722 /* CLBeacon+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLBeacon+Ext.h"; sourceTree = "<group>"; };
 		3C2F4A245B723B95C003183D /* UIScreen+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Ext.m"; sourceTree = "<group>"; };
 		3C2F4A27609BB9989B6D3660 /* NSDate+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Ext.h"; sourceTree = "<group>"; };
@@ -122,6 +132,7 @@
 		3C2F4C96C5C4933E6A1133B6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		3C2F4CD6C823CD12B8D104A3 /* NSMutableDictionary+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Ext.h"; sourceTree = "<group>"; };
 		3C2F4DBC7DD9F6A6F950D788 /* UIImage+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ext.m"; sourceTree = "<group>"; };
+		3C2F4E0852A7F8F6EDD52B62 /* HTCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCard.m; sourceTree = "<group>"; };
 		3C2F4E12B7FF6D156378AF75 /* HTBeaconService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBeaconService.h; sourceTree = "<group>"; };
 		3C2F4ECDD00FBB09AE962542 /* UIColor+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ext.m"; sourceTree = "<group>"; };
 		3C2F4F3D6793DBED3B3D45DE /* ReachabilityService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityService.m; sourceTree = "<group>"; };
@@ -146,6 +157,17 @@
 		C20D5A41188441D200C685D3 /* HeyThereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeyThereTests-Info.plist"; sourceTree = "<group>"; };
 		C20D5A43188441D200C685D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C20D5A45188441D200C685D3 /* HeyThereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeyThereTests.m; sourceTree = "<group>"; };
+		C2976B2B1886650700F88DA9 /* HTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTLoginViewController.h; path = Login/HTLoginViewController.h; sourceTree = "<group>"; };
+		C2976B2C1886650700F88DA9 /* HTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTLoginViewController.m; path = Login/HTLoginViewController.m; sourceTree = "<group>"; };
+		C2976B2F1886658600F88DA9 /* HTCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HTCardView.xib; path = Card/HTCardView.xib; sourceTree = "<group>"; };
+		C2976B351886663E00F88DA9 /* HTCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTCardView.h; path = Card/HTCardView.h; sourceTree = "<group>"; };
+		C2976B361886663E00F88DA9 /* HTCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTCardView.m; path = Card/HTCardView.m; sourceTree = "<group>"; };
+		C2976B391886669A00F88DA9 /* HTSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSettingViewController.h; sourceTree = "<group>"; };
+		C2976B3A1886669A00F88DA9 /* HTSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSettingViewController.m; sourceTree = "<group>"; };
+		C2976B3B1886669A00F88DA9 /* HTSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTSettingViewController.xib; sourceTree = "<group>"; };
+		C2976B3E188666BF00F88DA9 /* HTLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HTLoginViewController.xib; path = Login/HTLoginViewController.xib; sourceTree = "<group>"; };
+		C2976B40188667D700F88DA9 /* HTLoginViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HTLoginViewController~iphone.xib"; sourceTree = "<group>"; };
+		C2976B42188667FF00F88DA9 /* HTSettingViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HTSettingViewController~iphone.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +196,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C2F431FFF9FA83D5168E51C /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		3C2F4337CB33D509F70613E5 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +216,8 @@
 			children = (
 				3C2F43918485CD63D1E29AE7 /* HTUser.m */,
 				3C2F4112D3702B4BAC977BFD /* HTUser.h */,
+				3C2F4E0852A7F8F6EDD52B62 /* HTCard.m */,
+				3C2F496CED69FE4119758BBC /* HTCard.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -209,6 +240,7 @@
 				3C2F4A4E144513B045A37306 /* Utility */,
 				3C2F4A8BD98A9FCD582E8BD9 /* Extensions */,
 				3C2F49AE745E3F1E8EB6FA21 /* Service */,
+				3C2F431FFF9FA83D5168E51C /* API */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -216,10 +248,12 @@
 		3C2F49FDD7C473B15069E310 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C2976B2E1886651200F88DA9 /* Login */,
 				3C2F47306E9EF9E90F6E5F60 /* HTMainViewController.m */,
 				3C2F42FE5D3F2CDE358A7984 /* HTFlipsideViewController.m */,
 				3C2F4FFACE7A4F8F5B4F9932 /* HTMainViewController.h */,
 				3C2F4A922012A18788DED676 /* HTFlipsideViewController.h */,
+				3C2F4F763DF1B367A87DB664 /* Setting */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -297,9 +331,21 @@
 			path = Reachability;
 			sourceTree = "<group>";
 		};
+		3C2F4F763DF1B367A87DB664 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				C2976B391886669A00F88DA9 /* HTSettingViewController.h */,
+				C2976B3A1886669A00F88DA9 /* HTSettingViewController.m */,
+				C2976B3B1886669A00F88DA9 /* HTSettingViewController.xib */,
+				C2976B42188667FF00F88DA9 /* HTSettingViewController~iphone.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		3C2F4FDD9883561D548F962D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C2976B341886661100F88DA9 /* Card */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -380,6 +426,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C2976B2E1886651200F88DA9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C2976B2B1886650700F88DA9 /* HTLoginViewController.h */,
+				C2976B2C1886650700F88DA9 /* HTLoginViewController.m */,
+				C2976B3E188666BF00F88DA9 /* HTLoginViewController.xib */,
+				C2976B40188667D700F88DA9 /* HTLoginViewController~iphone.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		C2976B341886661100F88DA9 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				C2976B351886663E00F88DA9 /* HTCardView.h */,
+				C2976B361886663E00F88DA9 /* HTCardView.m */,
+				C2976B2F1886658600F88DA9 /* HTCardView.xib */,
+			);
+			name = Card;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -457,8 +524,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2976B301886658600F88DA9 /* HTCardView.xib in Resources */,
+				C2976B3D1886669A00F88DA9 /* HTSettingViewController.xib in Resources */,
 				C20D5A27188441D200C685D3 /* Main_iPad.storyboard in Resources */,
 				C20D5A32188441D200C685D3 /* Images.xcassets in Resources */,
+				C2976B43188667FF00F88DA9 /* HTSettingViewController~iphone.xib in Resources */,
+				C2976B41188667D700F88DA9 /* HTLoginViewController~iphone.xib in Resources */,
+				C2976B3F188666BF00F88DA9 /* HTLoginViewController.xib in Resources */,
 				C20D5A24188441D200C685D3 /* Main_iPhone.storyboard in Resources */,
 				C20D5A1B188441D100C685D3 /* InfoPlist.strings in Resources */,
 			);
@@ -494,11 +566,13 @@
 				3C2F433E8CB501211397ED0F /* NSMutableArray+Ext.m in Sources */,
 				3C2F419573BC53D279575383 /* NSMutableDictionary+Ext.m in Sources */,
 				3C2F4D782A7AC88180D3B9BC /* NSMutableSet+Ext.m in Sources */,
+				C2976B371886663E00F88DA9 /* HTCardView.m in Sources */,
 				3C2F432B8754C59B61DA9FF5 /* NSObject+Ext.m in Sources */,
 				3C2F481E29BBEFA3E9885DAA /* NSRangeExt.m in Sources */,
 				3C2F48FFDE571642D9A9BBB9 /* NSSet+Ext.m in Sources */,
 				3C2F48A1B54ECED57F780E65 /* NSString+Ext.m in Sources */,
 				3C2F43405F4E25514A07BFE8 /* UIColor+Ext.m in Sources */,
+				C2976B2D1886650700F88DA9 /* HTLoginViewController.m in Sources */,
 				3C2F48C8B8C65AD62761640D /* UIImage+Ext.m in Sources */,
 				3C2F47835F06F8C9A6F82192 /* UILabel+Ext.m in Sources */,
 				3C2F43B2361BA84402D4CCAD /* UIScreen+Ext.m in Sources */,
@@ -506,11 +580,13 @@
 				3C2F413B0AF518382122AE7F /* HTBeaconService.m in Sources */,
 				3C2F42575EA7C6FA314D395A /* EasedValue.m in Sources */,
 				3C2F4E4971769E98C715416A /* GCDUtilities.m in Sources */,
+				C2976B3C1886669A00F88DA9 /* HTSettingViewController.m in Sources */,
 				3C2F4A83ED0D9741FDB3316C /* INWeightedAverage.m in Sources */,
 				3C2F41CF63E768340DB35C71 /* ReachabilityService.m in Sources */,
 				3C2F49F11D7C850F57B6C7E6 /* Reachability.m in Sources */,
 				3C2F4CCCB2C48B3F8B79334D /* HTMainViewController.m in Sources */,
 				3C2F41ACAB4FB724ED35C970 /* HTFlipsideViewController.m in Sources */,
+				3C2F4EB79CAD90DCEC3A6295 /* HTCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -731,6 +807,7 @@
 				C20D5A4B188441D200C685D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C20D5A4C188441D200C685D3 /* Build configuration list for PBXNativeTarget "HeyThereTests" */ = {
 			isa = XCConfigurationList;
@@ -739,6 +816,7 @@
 				C20D5A4E188441D200C685D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
