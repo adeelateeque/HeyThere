@@ -400,6 +400,11 @@
 				CLASSPREFIX = IN;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Instrument;
+				TargetAttributes = {
+					3509B97D1819C0E70093F714 = {
+						DevelopmentTeam = VJGE9UC67E;
+					};
+				};
 			};
 			buildConfigurationList = 3509B9791819C0E70093F714 /* Build configuration list for PBXProject "Vicinity" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -596,13 +601,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Vince LaVecchia (65H3FC65MZ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vicinity/Vicinity-Prefix.pch";
 				INFOPLIST_FILE = "Vicinity/Vicinity-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "EF53D92B-B2CA-4E66-80CA-F0DE615F7742";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include/EasyLayoutLibrary";
 				WRAPPER_EXTENSION = app;
 			};
@@ -612,13 +618,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Instrument Marketing Inc. (XG383HYWBZ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vicinity/Vicinity-Prefix.pch";
 				INFOPLIST_FILE = "Vicinity/Vicinity-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "BD184EAD-4A1E-4EE9-AE8C-E64296120D7E";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include/EasyLayoutLibrary";
 				WRAPPER_EXTENSION = app;
 			};
